@@ -8,3 +8,10 @@
 span{
     color: aquamarine;
 }
+#btn{
+    margin: 20px; 
+    width: 110px; 
+    border-radius: 200px;
+     height: 50PX;
+     color: whitesmoke;
+}
