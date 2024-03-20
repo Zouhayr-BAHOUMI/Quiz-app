@@ -1,0 +1,20 @@
+#exam{
+color: rgb(148, 145, 145);
+font-size: 16px;
+
+}
+.container #qstNumber{
+color: rgb(148, 145, 145);
+font-size: 15px;
+padding-left: 0px;
+     
+}
+.progress{
+
+
+
+}
+
+.progress-bar{
+ border-radius: 40px;
+}
