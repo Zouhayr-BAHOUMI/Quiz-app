@@ -31,5 +31,18 @@ color: rgb(148, 145, 145);
 .container{
     display: flex;
     justify-content: center;
-    
+}
+.clock{
+    margin-left: 850px;
+}
+#exam{
+    padding: 0 5%;
+}
+
+.qstNumber{
+    color: rgb(148, 145, 145);
+    padding: 0 10%;
+}
+.reponse{
+    padding: 0 10%;
 }
