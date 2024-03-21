@@ -1,9 +1,13 @@
-var timer;
-var element= document.getElementsByClassName('.clock');
-(function() {
-var sec= 0;
-timer = setInterval(()=>{
-element.innerHTML='00:'+sec;
-sec++;
-},1000 )
-})()
+const stratTimer = 15;
+let time = stratTimer * 60;
+const timer = document.getElementById('timinig');
+setInterval(updateTimer, 1000);
+function updateTimer () {
+const minutes = Math.floor(time/60);
+let seconds = time % 60;
+seconds = seconds < 10 ? '0' + seconds : seconds;
+
+timer.innerHTML =`${minutes}:${seconds}`;
+time--;
+
+}
