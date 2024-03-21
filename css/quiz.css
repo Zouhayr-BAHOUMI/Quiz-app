@@ -2,19 +2,47 @@
 color: rgb(148, 145, 145);
 font-size: 16px;
 
+
 }
 .container #qstNumber{
 color: rgb(148, 145, 145);
-font-size: 15px;
-padding-left: 0px;
+
      
 }
 .progress{
-
-
-
+    margin-left: auto; 
+    margin-right:auto;
 }
 
 .progress-bar{
  border-radius: 40px;
+}
+.quastion h2{
+    margin-top: 30px;
+    margin-bottom: 20px;
+    color: #001584;
+}
+.quastion{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+
+}
+.container{
+    display: flex;
+    justify-content: center;
+}
+.clock{
+    margin-left: 850px;
+}
+#exam{
+    padding: 0 5%;
+}
+
+.qstNumber{
+    color: rgb(148, 145, 145);
+    padding: 0 10%;
+}
+.reponse{
+    padding: 0 10%;
 }
