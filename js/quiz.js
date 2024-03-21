@@ -25,3 +25,13 @@ function updateProgressBar() {
 // Ajoutez un écouteur d'événements au bouton "Suivant"
 const suivantBtn = document.getElementById('suivantBtn');
 suivantBtn.addEventListener('click', updateProgressBar);
+
+
+function afficherQuestions(){
+    let question = document.querySelector(".question");
+    let qstAfficher = '<h2>'+Questions[2].question+'</h2>';
+    question.innerHTML = qstAfficher;
+
+}
+
+afficherQuestions();
