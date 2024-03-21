@@ -1,0 +1,17 @@
+.img{
+    width: 15%;
+}
+.Congratulation{
+    bottom: 20px;
+     color: rgb(32, 224, 160);
+}
+span{
+    color: rgb(32, 224, 160);
+}
+#btn{
+    margin: 20px; 
+    width: 110px; 
+    border-radius: 200px;
+     height: 50PX;
+     color: whitesmoke;
+}
