@@ -27,11 +27,41 @@ const suivantBtn = document.getElementById('suivantBtn');
 suivantBtn.addEventListener('click', updateProgressBar);
 
 
-function afficherQuestions(){
+let i = 0;
+let counterQuestion = 1;
+suivantBtn.onclick = () => {
+    if (i < Questions.length - 1){
+        i++;
+        counterQuestion ++;
+        afficherQuestions(i);
+        countNumberQuestion(counterQuestion);
+    }else{
+        console.log("finiitoooooooo")
+    }
+}
+
+
+
+
+function afficherQuestions(index){
     let question = document.querySelector(".question");
-    let qstAfficher = '<h2>'+Questions[2].question+'</h2>';
+    let suggest = document.querySelector(".reponse");
+    let qstAfficher = '<h2>'+Questions[index].question+'</h2>';
+    let suggestAfficher = '<div class="input rounded-5 border p-3 mb-4"><span class="text ms-3">'+Questions[index].sugguestion[0]+'</span></div>'
+                           +'<div class="input rounded-5 border p-3 mb-4"><span class="text ms-3">'+Questions[index].sugguestion[1]+'</span></div>'
+                           +'<div class="input rounded-5 border p-3 mb-4"><span class="text ms-3">'+Questions[index].sugguestion[2]+'</span></div>'
+                           +'<div class="input rounded-5 border p-3 mb-4"><span class="text ms-3">'+Questions[index].sugguestion[3]+'</span></div>';
     question.innerHTML = qstAfficher;
+    suggest.innerHTML = suggestAfficher;
 
 }
 
-afficherQuestions();
+afficherQuestions(0);
+countNumberQuestion(1);
+
+
+function countNumberQuestion(index){
+    let questionNumber = document.querySelector(".totalQuesion");
+    let questionNumberAfficher = '<label class="qstNumber mb-3 pl-5" for="Quesion out of">Question <span>'+index+'</span> out of <span>'+Questions.length+'</span> </label>';
+    questionNumber.innerHTML=questionNumberAfficher;
+}
