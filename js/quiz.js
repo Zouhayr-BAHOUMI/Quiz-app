@@ -17,9 +17,9 @@ time--;
 function updateProgressBar() {
     const progressBar = document.querySelector('.progress-bar');
     const currentProgress = parseInt(progressBar.style.width) || 0;
-    const newProgress = Math.min(currentProgress + (100 / 16), 100); // Augmente de 1/16 de la barre
+    const newProgress = Math.min(currentProgress + (100 / 16), 100); 
     progressBar.style.width = newProgress + '%';
-    progressBar.textContent = Math.round(newProgress) + '%'; // Met à jour le texte de progression
+    progressBar.textContent = Math.round(newProgress) + '%'; 
 }
 
 // Ajoutez un écouteur d'événements au bouton "Suivant"
