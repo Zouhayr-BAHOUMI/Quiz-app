@@ -54,7 +54,23 @@ function afficherQuestions(index){
     question.innerHTML = qstAfficher;
     suggest.innerHTML = suggestAfficher;
 
+    let suggestAnswer = suggest.querySelectorAll(".text");
+    for(let i=0; i<suggestAnswer.length; i++){
+        suggestAnswer[i].setAttribute("onclick", "determinerAnswer(this)");
+    }
+
 }
+
+function determinerAnswer(reponse){
+    let userReponse = reponse.textContent;
+    let monReponse = Questions[i].reponse;
+    if( userReponse == monReponse ){
+       console.log("correcte");
+    }else{
+        console.log("non");
+    }
+}
+
 
 afficherQuestions(0);
 countNumberQuestion(1);
@@ -65,3 +81,5 @@ function countNumberQuestion(index){
     let questionNumberAfficher = '<label class="qstNumber mb-3 pl-5" for="Quesion out of">Question <span>'+index+'</span> out of <span>'+Questions.length+'</span> </label>';
     questionNumber.innerHTML=questionNumberAfficher;
 }
+
+

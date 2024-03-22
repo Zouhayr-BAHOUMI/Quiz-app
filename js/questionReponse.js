@@ -5,7 +5,7 @@ let Questions = [
         sugguestion : [
             "choix 1 de 1",
             "choix 2",
-            "choix 3",
+            "test reponse",
             "choix 4",
         ]
     },
