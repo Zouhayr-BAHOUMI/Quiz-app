@@ -1,172 +1,172 @@
 let Questions = [
     {
-        question : "test 1",
-        reponse : "test reponse",
+        question : "Si un livre coûte 20 euros et que son prix est augmenté de 25%, quel sera le nouveau prix du livre ?",
+        reponse : "22,50 euros",
         sugguestion : [
-            "choix 1 de 1",
-            "choix 2",
-            "choix 3",
-            "choix 4",
+            "22,50 euros",
+            "25 euros",
+            "30 euros",
+            "40 euros",
         ]
     },
 
     {
-        question : "test 2",
+        question : "Quelle est la somme des angles d'un triangle ?",
         reponse : "test reponse 2",
         sugguestion : [
-            "choix 1 de 2 ",
-            "choix 2",
-            "choix 3 de 2",
-            "choix 4",
+            "190 degrés",
+            "180 degrés",
+            "270 degrés",
+            "320 degrés",
         ]
     },
 
     {
-        question : "test 3",
-        reponse : "test reponse 3",
+        question : "Quel est le prochain terme dans cette série : 1, 4, 9, 16, ... ?",
+        reponse : "25",
         sugguestion : [
-            "choix 1 de 3",
-            "choix 2",
-            "choix 3 de 3",
-            "choix 4",
+            "24",
+            "25",
+            "36",
+            "49",
         ]
     },
 
     {
-        question : "test 4",
-        reponse : "test reponse 2",
+        question : "Un fermier a 15 moutons et tous sauf 8 meurent. Combien de moutons lui restent-il ?",
+        reponse : "7",
         sugguestion : [
-            "choix 1 de 2 ",
-            "choix 2",
-            "choix 3 de 2",
-            "choix 4",
+            "8",
+            "9",
+            "15",
+            "7",
         ]
     },
     {
-        question : "test 5",
-        reponse : "test reponse 2",
+        question : "Choose the correct word to complete the sentence:<br>She ________ to the store yesterday.",
+        reponse : "went",
         sugguestion : [
-            "choix 1 de 2 ",
-            "choix 2",
-            "choix 3 de 2",
-            "choix 4",
+            "go",
+            "goes",
+            "went",
+            "gone",
         ]
     },
     {
-        question : "test 6",
-        reponse : "test reponse 2",
+        question : "Identify the correct spelling:",
+        reponse : "Occasion",
         sugguestion : [
-            "choix 1 de 2 ",
-            "choix 2",
-            "choix 3 de 2",
-            "choix 4",
+            "Ocassion",
+            "Occasion",
+            "Occasionn",
+            "Occassion",
         ]
     },
     {
-        question : "test 7",
-        reponse : "test reponse 2",
+        question : "Select the sentence with correct punctuation:",
+        reponse : "He enjoys playing tennis, but she prefers soccer.",
         sugguestion : [
-            "choix 1 de 2 ",
-            "choix 2",
-            "choix 3 de 2",
-            "choix 4",
+            "He enjoys playing tennis but she prefers soccer",
+            "He enjoys playing tennis. But, she prefers soccer.",
+            "He enjoys playing tennis, but she prefers soccer.",
+            "He enjoys playing tennis, but she prefers soccer.",
         ]
     },
     {
-        question : "test 8",
-        reponse : "test reponse 2",
+        question : "Choose the sentence with the correct use of their, there, or they're:",
+        reponse : "They're going to the park later.",
         sugguestion : [
-            "choix 1 de 2 ",
-            "choix 2",
-            "choix 3 de 2",
-            "choix 4",
+            "Their going to the park later.",
+            "They're going to the park later.",
+            "There going to the park later.",
+            "Theyre going to the park later.",
         ]
     },
     {
-        question : "test 9",
-        reponse : "test reponse 2",
+        question : "Quel est le résultat de l'expression suivante en Python : 3 * 4 + 5 / 2 ?",
+        reponse : "14",
         sugguestion : [
-            "choix 1 de 2 ",
-            "choix 2",
-            "choix 3 de 2",
-            "choix 4",
-        ]
-    },
-
-    {
-        question : "test 10",
-        reponse : "test reponse 2",
-        sugguestion : [
-            "choix 1 de 2 ",
-            "choix 2",
-            "choix 3 de 2",
-            "choix 4",
+            "10",
+            "11.5",
+            "14",
+            "15",
         ]
     },
 
     {
-        question : "test 11",
-        reponse : "test reponse 2",
+        question : "Java est un langage developpe par...",
+        reponse : "Sun Microsystems",
         sugguestion : [
-            "choix 1 de 2 ",
-            "choix 2",
-            "choix 3 de 2",
-            "choix 4",
+            "Hewlett-Packard",
+            "Microsoft",
+            "Oracle",
+            "Sun Microsystems",
         ]
     },
 
     {
-        question : "test 12",
-        reponse : "test reponse 2",
+        question : "Quelle est la fonction principale du langage SQL ?",
+        reponse : " Définir la structure et les contraintes d'une base de données.",
         sugguestion : [
-            "choix 1 de 2 ",
-            "choix 2",
-            "choix 3 de 2",
-            "choix 4",
+            "Définir la structure et les contraintes d'une base de données.",
+            "Gérer les interactions entre les utilisateurs et la base de données.",
+            " Créer des interfaces utilisateur pour les applications.",
+            "Contrôler le système d'exploitation d'un ordinateur.",
         ]
     },
 
     {
-        question : "test 13",
-        reponse : "test reponse 2",
+        question : "La liaison tardive est essentielle pour assurer..",
+        reponse : "le polymorphisme",
         sugguestion : [
-            "choix 1 de 2 ",
-            "choix 2",
-            "choix 3 de 2",
-            "choix 4",
+            "l’encapsulation",
+            "le polymorphisme",
+            "l’h´eritage",
+            "la marginalisation",
         ]
     },
 
     {
-        question : "test 14",
-        reponse : "test reponse 2",
+        question : "Java est un langage",
+        reponse : "Compile et interprete",
         sugguestion : [
-            "choix 1 de 2 ",
-            "choix 2",
-            "choix 3 de 2",
-            "choix 4",
+            "Compile",
+            "Interprete",
+            "Compile et interprete",
+            "Ni compile Ni interprete",
         ]
     },
 
     {
-        question : "test 15",
-        reponse : "test reponse 2",
+        question : "Quel protocole est utilisé pour envoyer des courriers électroniques sur Internet ?",
+        reponse : "SMTP",
         sugguestion : [
-            "choix 1 de 15 ",
-            "choix 2",
-            "choix 3 de 2",
-            "choix 4",
+            "FTP",
+            "SMTP",
+            "HTTP",
+            "UDP",
         ]
     },
 
     {
-        question : "test 16",
+        question : "Quelle est la signification de l'acronyme HTML en informatique ?        ",
         reponse : "test reponse 2",
         sugguestion : [
-            "choix 1 de 16 ",
-            "choix 2",
-            "choix 3 de 2",
-            "choix 4",
+            "Hyper Text Markup Language",
+            " High Technology Modular Language",
+            "Human Text Machine Learning",
+            "Hyperlinks and Text Manipulation Language",
+        ]
+    },
+
+    {
+        question : "Quelle est la signification de l'acronyme <br>",
+        reponse : "Breakline",
+        sugguestion : [
+            "Horizantaleline",
+            "Bold",
+            "Breakline",
+            "Italic",
         ]
     },
 ]
