@@ -55,4 +55,16 @@ color: rgb(148, 145, 145);
     background-color: white;
     color: #67B4DF;
     border-color:  #67B4DF; 
-  }
+}
+
+.reponse .text.correcte{
+    color: green;
+}
+
+.reponse .text.incorrecte{
+    color: red;
+}
+
+.reponse .text.disabled{
+    pointer-events: none;
+}
