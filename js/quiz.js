@@ -36,6 +36,7 @@ suivantBtn.addEventListener('click', updateProgressBar);
 
 let i = 0;
 let counterQuestion = 1;
+let score = 0;
     suivantBtn.onclick = () => {
         if (i < Questions.length - 1){
             i++;
@@ -43,7 +44,9 @@ let counterQuestion = 1;
             afficherQuestions(i);
             countNumberQuestion(counterQuestion);
         }else{
-            console.log("finiitoooooooo")
+            suivantBtn.style.display ="none"
+            console.log("finiitoooooooo");
+            window.location.href = "resultat.html";
         }
     }
 
@@ -75,8 +78,10 @@ let counterQuestion = 1;
         let monReponse = Questions[i].reponse;
         let suggestAnswer = document.querySelectorAll(".text");
 
-
+        
         if( userReponse == monReponse ){
+        score +=1;
+        localStorage.setItem('quizScore', score);
         console.log("correcte");
         reponse.classList.add("correcte");
         }else{
@@ -112,3 +117,15 @@ countNumberQuestion(1);
     }
 
 
+    function afficherResultat (){
+
+        let scoreAfficher = document.querySelector(".result");
+
+        if( score > 12 ){
+            let resultat = (score / 16)* 100;
+            scoreAfficher.innerHTML = 'Score :<span class="result">'+ resultat+'%</span>'
+        }
+    }
+
+
+  

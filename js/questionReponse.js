@@ -150,10 +150,10 @@ let Questions = [
 
     {
         question : "Quelle est la signification de l'acronyme HTML en informatique ?        ",
-        reponse : "test reponse 2",
+        reponse : "Hyper Text Markup Language",
         sugguestion : [
             "Hyper Text Markup Language",
-            " High Technology Modular Language",
+            "High Technology Modular Language",
             "Human Text Machine Learning",
             "Hyperlinks and Text Manipulation Language",
         ]
