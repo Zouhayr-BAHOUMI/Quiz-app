@@ -7,11 +7,18 @@
 }
 span{
     color: rgb(32, 224, 160);
+    font-size: 2rem;
+}
+
+p{
+    color: rgb(26, 25, 25);
+    font-size: 1.2rem;
+    margin-top: 2rem;
 }
 #btn{
     margin: 20px; 
     width: 110px; 
     border-radius: 200px;
-     height: 50PX;
-     color: whitesmoke;
+    height: 50PX;
+    color: whitesmoke;
 }

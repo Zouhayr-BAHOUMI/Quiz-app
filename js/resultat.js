@@ -10,11 +10,25 @@ if (score !== null && score !== undefined) {
 
 function afficherResultat (){
     console.log('afficherResultat function called');
-    let scoreAfficher = document.querySelector("h3.result");
+    let scoreAfficher = document.querySelector(".resultat");
+    let image = document.querySelector(".img");
+    let resultat = (score / 16)* 100;
 
     if( score > 12 ){
-        let resultat = (score / 16)* 100;
-        scoreAfficher.innerHTML = 'Score :<span >'+ resultat+'%</span>'
+        let display = '<span> Congratulation <p> Score is:'+resultat+' % </p> </span>';
+        scoreAfficher.innerHTML = display;
+        image.src = "/media/happy.gif";
+    }else{
+        let display = '<span style="color: red;" > Oooooooooops!!! <p> Score is: '+resultat+' % </p> </span>';
+        scoreAfficher.innerHTML = display;
+        image.src = "/media/anger.gif";
     }
 }
+
+let finishBtn = document.getElementById('btn');
+
+finishBtn.onclick = () =>{
+    window.location.href = "home.html";
+}
+
 

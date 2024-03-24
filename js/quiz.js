@@ -37,6 +37,7 @@ suivantBtn.addEventListener('click', updateProgressBar);
 let i = 0;
 let counterQuestion = 1;
 let score = 0;
+
     suivantBtn.onclick = () => {
         if (i < Questions.length - 1){
             i++;
