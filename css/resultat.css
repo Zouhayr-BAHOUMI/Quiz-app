@@ -3,22 +3,24 @@
 }
 .Congratulation{
     bottom: 20px;
-    color: rgb(32, 224, 160);
+    color: rgb(28, 119, 89);
 }
 span{
-    color: rgb(32, 224, 160);
-    font-size: 2rem;
+    color: rgb(28, 119, 89);
+    font-size: 3rem;
+    line-height: 2.5;
 }
 
 p{
     color: rgb(26, 25, 25);
-    font-size: 1.2rem;
-    margin-top: 2rem;
+    font-size: 1.4rem;
 }
 #btn{
-    margin: 20px; 
+    margin: 1.5rem; 
     width: 110px; 
-    border-radius: 200px;
-    height: 50PX;
+    border-radius: 1.5rem;
+    height: 50px;
     color: whitesmoke;
+    background-color: #2e7197;
+    border: none;
 }
