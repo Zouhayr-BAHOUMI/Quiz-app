@@ -35,7 +35,7 @@ body{
 }
 
 span{
-    color: #67B4DF;
+    color: #25719c;
 }
 
 .row h5{
@@ -52,6 +52,7 @@ span{
 .buttons .btn{
     font-size: 1rem;
     color: #FBFBFB;
-    background-color: #67B4DF;
+    background-color: #2e7197;
     border: none;
+    padding: 1.1rem 2.5rem;
 }
