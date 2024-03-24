@@ -2,7 +2,7 @@ body{
     font-family: "Poppins", sans-serif;
     background-color: #FBFBFB;
 }
-
+/* began nav css */
 .navbar-brand img{
     width: 100%;
 }
@@ -20,6 +20,7 @@ body{
     color: #273332;
     font-size: 1rem;
 }
+/* end nav css */
 
 .hero{
     margin-top: 10rem;
@@ -49,10 +50,57 @@ span{
     line-height: 1.8;
 }
 
-.buttons .btn{
+.btn{
     font-size: 1rem;
     color: #FBFBFB;
     background-color: #2e7197;
     border: none;
-    padding: 1.1rem 2.5rem;
+    padding: 1.1rem 2.1rem;
 }
+
+.modal-footer .btn-secondary{
+    background-color: #FBFBFB;
+    color: #25719c;
+    border: 1px solid rgb(46, 113, 151);
+}
+
+
+@media only screen and (max-width: 470px) {
+    
+    .row img{
+        margin-left: 3rem;
+        margin-top: 2rem;
+        width: 80%;
+    }
+    
+    .row h1{
+        margin: 4rem 0 1.5rem;
+        font-size: 2.2rem;
+    }
+}
+
+@media only screen and (min-width: 770px) and (max-width: 990px) {
+
+    .row img{
+        margin-left: 4rem;
+        margin-top: 4rem;
+        width: 100%;
+    }
+
+    .row h1{
+        margin: 6rem 0 1.7rem;
+        font-size: 1.8rem;
+    }
+
+    .row h5{
+        font-size: 1rem;
+        font-family: "Poppins", sans-serif;
+        font-weight: 400;
+    }
+
+    .row p{
+        font-size: 0.8rem;
+        line-height: 1.8;
+    }
+}
+
