@@ -12,7 +12,7 @@ let Questions = [
 
     {
         question : "Quelle est la somme des angles d'un triangle ?",
-        reponse : "test reponse 2",
+        reponse : "190 degrés",
         sugguestion : [
             "190 degrés",
             "180 degrés",
@@ -106,11 +106,11 @@ let Questions = [
 
     {
         question : "Quelle est la fonction principale du langage SQL ?",
-        reponse : " Définir la structure et les contraintes d'une base de données.",
+        reponse : "Définir la structure et les contraintes d'une base de données.",
         sugguestion : [
             "Définir la structure et les contraintes d'une base de données.",
             "Gérer les interactions entre les utilisateurs et la base de données.",
-            " Créer des interfaces utilisateur pour les applications.",
+            "Créer des interfaces utilisateur pour les applications.",
             "Contrôler le système d'exploitation d'un ordinateur.",
         ]
     },
@@ -150,10 +150,10 @@ let Questions = [
 
     {
         question : "Quelle est la signification de l'acronyme HTML en informatique ?        ",
-        reponse : "test reponse 2",
+        reponse : "Hyper Text Markup Language",
         sugguestion : [
             "Hyper Text Markup Language",
-            " High Technology Modular Language",
+            "High Technology Modular Language",
             "Human Text Machine Learning",
             "Hyperlinks and Text Manipulation Language",
         ]
