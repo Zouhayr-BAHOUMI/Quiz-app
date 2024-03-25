@@ -1,4 +1,4 @@
-const stratTimer = 1;
+const stratTimer = 15;
 let time = stratTimer * 60;
 const timer = document.getElementById('timinig');
 setInterval(updateTimer, 1000);
@@ -57,7 +57,7 @@ let score = 0;
     function afficherQuestions(index){
         let question = document.querySelector(".question");
         let suggest = document.querySelector(".reponse");
-        let qstAfficher = '<h4>'+Questions[index].question+'</h4>';
+        let qstAfficher = '<h5>'+Questions[index].question+'</h5>';
         
         let suggestAfficher = '<div class="input rounded-5 border p-3 mb-4"><span class="text ms-3">'+Questions[index].sugguestion[0]+'</span></div>'
                             +'<div class="input rounded-5 border p-3 mb-4"><span class="text ms-3">'+Questions[index].sugguestion[1]+'</span></div>'

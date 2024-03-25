@@ -121,7 +121,7 @@ let Questions = [
         sugguestion : [
             "l’encapsulation",
             "le polymorphisme",
-            "l’h´eritage",
+            "l’heritage",
             "la marginalisation",
         ]
     },
@@ -160,7 +160,7 @@ let Questions = [
     },
 
     {
-        question : "Quelle est la signification de l'acronyme <br>",
+        question : "Quelle est la signification de l'acronyme '<br>' ",
         reponse : "Breakline",
         sugguestion : [
             "Horizantaleline",
