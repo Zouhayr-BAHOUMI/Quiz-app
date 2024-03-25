@@ -9,12 +9,48 @@
     <title>Document</title>
 </head>
 <body>
-    <div class="text-center">
-        <img class="img" src="/media/9c6616a7bca9cd4a399c9435568d180d-8.gif" class="rounded" alt="CCC">
-        <h1 class="Congratulation">Congratulation!</h1>
-        <h3>Score = <span>80%</span></h3>
-        <h5>Passing Score: 75%</h5>
-        <button id="btn" type="button" class="btn btn-info">Finish</button>
+    <nav class="navbar navbar-expand-lg fixed-top">
+        <div class="container my-4">
+          <a class="navbar-brand" href="#"><img src="/images/HRQuiz..png" alt=""></a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasNavbar" aria-labelledby="offcanvasNavbarLabel">
+            <div class="offcanvas-header">
+              <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+            </div>
+            <div class="offcanvas-body">
+              
+                <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
+                    <li class="nav-item ms-5">
+                        <a class="nav-link mx-lg-2 " aria-current="page" href="#">Home</a>
+                    </li>
+
+                    <li class="nav-item ms-5">
+                        <a class="nav-link mx-lg-2" aria-current="page" href="#">About</a>
+                    </li>
+
+                    <li class="nav-item ms-5">
+                        <a class="nav-link mx-lg-2 cta-btn" aria-current="page" href="#">Login</a>
+                    </li>
+
+                </ul>
+            </div>
+          </div>
+        </div>
+    </nav>
+    <div class="container mt-5">
+        <div class="text-center">
+            <img class="img" src="/media/9c6616a7bca9cd4a399c9435568d180d-8.gif" class="rounded" alt="CCC">
+            <h1 class="congratulation">Congratulations!</h1>
+            <h3>Score = <span>80%</span></h3>
+            <h5>Passing Score: 75%</h5>
+            <button id="btn" type="button" class="btn btn-info">Finish</button>
+        </div>
+    </div>
+
+   
+        
 
 </body>
 </html>

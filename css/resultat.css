@@ -1,5 +1,6 @@
 .img{
     width: 15%;
+    margin-top: 5%;
 }
 .Congratulation{
     bottom: 20px;
@@ -14,4 +15,7 @@ span{
     border-radius: 200px;
      height: 50PX;
      color: whitesmoke;
+}
+.container{
+    margin-bottom: 20%;
 }
