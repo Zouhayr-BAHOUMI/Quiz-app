@@ -1,4 +1,4 @@
-const stratTimer = 1;
+const stratTimer = 15;
 let time = stratTimer * 60;
 const timer = document.getElementById('timinig');
 setInterval(updateTimer, 1000);

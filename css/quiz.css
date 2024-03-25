@@ -1,14 +1,9 @@
-
 #exam{
 color: rgb(148, 145, 145);
 font-size: 16px;
-
-
 }
 .container #qstNumber{
-color: rgb(148, 145, 145);
-
-     
+color: rgb(148, 145, 145);    
 }
 .progress{
     margin-left: auto; 
@@ -47,12 +42,12 @@ color: rgb(148, 145, 145);
 }
 .button .btn{
     color: #F2F2F2;
-    background-color: #67B4DF;
+    background-color: #2e7197;
 }
 .button .btn:hover {
     background-color: white;
-    color: #67B4DF;
-    border-color:  #67B4DF; 
+    color: #2e7197;
+    border-color:  #2e7197; 
 }
 
 .reponse .text.correcte{
@@ -65,4 +60,16 @@ color: rgb(148, 145, 145);
 
 .reponse .text.disabled{
     pointer-events: none;
+}
+.qstNumber{
+    color: #001584;
+}
+.total{
+    color: #001584;
+}
+#exam{
+    color: #2e7197;
+}
+.clock{
+    width:30px;
 }
