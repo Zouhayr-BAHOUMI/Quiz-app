@@ -29,6 +29,22 @@ setInterval(updateTimer, 1000);
         progressBar.textContent = Math.round(newProgress) + '%'; 
     }
 
+ // Fonction pour vérifier si l'utilisateur a répondu à la question:
+ let userAnswered = false;
+
+
+function checkUserAnswer() {
+    const suggestAnswer = document.querySelectorAll(".text");
+    for (let i = 0; i < suggestAnswer.length; i++) {
+        if (!suggestAnswer[i].classList.contains("disabled")) {
+            // L'utilisateur n'a pas répondu à la question
+            alert("Veuillez répondre à la question avant de passer à la suivante.");
+            return false;
+        }
+    }
+    return true;
+}
+
 // Ajoutez un écouteur d'événements au bouton "Suivant"
 const suivantBtn = document.getElementById('suivantBtn');
 suivantBtn.addEventListener('click', updateProgressBar);
@@ -38,7 +54,26 @@ let i = 0;
 let counterQuestion = 1;
 let score = 0;
 
-    suivantBtn.onclick = () => {
+suivantBtn.onclick = () => {
+    // Vérifier si l'utilisateur a répondu à la question actuelle
+    if (!checkUserAnswer()) {
+        return; 
+    }
+
+    if (i < Questions.length - 1) {
+        i++;
+        counterQuestion++;
+        afficherQuestions(i);
+        countNumberQuestion(counterQuestion);
+        // Réinitialiser la variable pour la prochaine question
+        userAnswered = false;
+    } else {
+        suivantBtn.style.display = "none";
+        console.log("finiitoooooooo");
+        window.location.href = "resultat.html"; 
+    }
+};
+   /* suivantBtn.onclick = () => {
         if (i < Questions.length - 1){
             i++;
             counterQuestion ++;
@@ -49,7 +84,7 @@ let score = 0;
             console.log("finiitoooooooo");
             window.location.href = "resultat.html";
         }
-    }
+    }*/
 
 
 
