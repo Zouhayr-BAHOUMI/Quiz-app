@@ -33,16 +33,14 @@ color: rgb(148, 145, 145);
     display: flex;
     justify-content: center;
 }
-.clock{
-    margin-left: 850px;
-}
+
 #exam{
     padding: 0 5%;
 }
 
 .qstNumber{
     color: rgb(148, 145, 145);
-    padding: 0 10%;
+    padding: 0 30%;
 }
 .choix{
     padding: 0 30%;
